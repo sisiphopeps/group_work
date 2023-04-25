@@ -1,0 +1,26 @@
+
+body {
+    background: url(./assets/eiffle\ tower.jpg) no-repeat center center / cover;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    color: cornsilk;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-container{
+    margin-top: 260px;
+}
+footer{
+    text-align: center;
+    /* background:whitesmoke ; */
+    color: #333;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
