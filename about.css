@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/brush');
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: black;
+    color: white;
+    line-height: 2;
+    background: url(./images/eiffel-tower-seine-at-night.jpg) no-repeat fixed center center / 200vh;
+}
+
+
+/* NAV  */
+nav ul{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 10px 20px;
+    gap: 9px;
+}
+
+nav a:hover{
+    opacity: .7;
+}
+/* NAV END */
+
+
+
+/* TOP SECTION */
+.top-container {
+    text-align: center;
+    font-family: 'brush', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 2.8;
+    /* background: url(./images/skyline-Eiffel-Tower-France-Paris.webp) no-repeat center center / cover; */
+    margin-top: 20px;
+}
+.top-container p {
+    font-size: 30px;
+}
+.top-container h2 {
+    color: red;
+    font-size: 50px;
+}
+
+
+/* TOP SECTION END */
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+
+
+
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    height: inherit;
+    float: bottom;
+    transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
+.box{
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    padding: 15px;
+    background-color: black;
+}
+
+.box:hover {
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+
+    display: block !important;
+    top: 0px;
+    bottom: 0px;
+}
+/* 
+.box-1 {
+    border-radius: 20px;
+    width: 200px;
+    height: 70px;
+    background-color: black;
+}
+.box-1:hover {
+    display: block;
+    border-radius: 20px;
+    width: 200px;
+    height: 400px;
+    opacity: 1;
+} */
+
+.first .second .third {
+    display: grid;
+}
+
+
+
+.container h4 {
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: #93CAED;
+    text-align: center;
+    /* opacity: 0; */
+
+    overflow: hidden;
+    position: relative;
+}
+.text-hover{
+    display: none;
+}
+
+.box:hover 
+.text-hover {
+    display: block !important;
+    top: 0px;
+    bottom: 0px;
+    /* opacity: 1; */
+}
+
+/* CONTAINER END */
+
+
+
+/* FOOTER */
+
+.footer-container {
+    display: flex;
+    margin-top: 30%;
+    justify-content: center;
+}
+footer h6 {
+    text-align: center;
+    color: maroon;
+    /* footer should not be seen lol */
+}
+
+.social-icon {
+    width: 50px;
+}
+
+
+/* FOOTER END */
